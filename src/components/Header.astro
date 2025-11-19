@@ -1,0 +1,92 @@
+---
+import { Image } from "astro:assets";
+import LogoMythossinfondo from "../../public/Images/LogoMythossinfondo.png"
+---
+
+
+<div class="relative flex h-fit w-full flex-col bg-[#0e1014] border-b border-[#282e39] " style='font-family: Inter, "Noto Sans", sans-serif;'>
+  <div class="layout-container flex h-[200px] grow flex-col justify-center">
+    
+    <header class="flex items-center justify-between whitespace-nowrap px-10 py-3">
+      <div class="hidden sm:flex items-center gap-4 text-white ">
+        <h2 class="text-white text-lg font-bold leading-tight tracking-[-0.015em] ">Mitologías del Mundo</h2>
+      </div>
+      <div class="bg-center bg-no-repeat aspect-square bg-cover rounded-lg">
+                  <picture>
+                    <img src={LogoMythossinfondo.src} alt="Logo Mythos" class="lg:w-[200px] lg:h-[300px] rounded-xl transition-transform duration-300 ease-out hover:scale-105" />
+                  </picture>
+                </div>
+      <div class="lg:hidden btn text-white">
+        <span class="material-symbols-outlined">menu</span>
+      </div>
+
+      <nav class="hidden lg:block nav">
+        <div class="flex items-center gap-9">
+          <a class="text-white text-sm font-medium leading-normal hover:underline" href="/">Inicio</a>
+          <a class="text-white text-sm font-medium leading-normal hover:underline" href="">Historias</a>
+          <a class="text-white text-sm font-medium leading-normal hover:underline" href="/acercade">Acerca de</a>
+        </div>
+      </nav>
+    </header>
+    
+  </div>
+</div>
+
+          
+        
+
+<style>
+
+.nav-active {
+  display: flex !important;
+  flex-direction: column;
+  justify-content: center;
+  
+  position: absolute;
+  height: fit-content;
+  top: 70px;
+  right: 1rem; /* opcional: que se abra desde la derecha */
+  background: #e4e0e0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  padding: 16px;
+  width: 100px; /* deja que el tamaño se adapte al contenido */
+  
+  z-index: 50;
+}
+
+
+.nav-active div{
+    display: flex;
+  flex-direction: column;
+  justify-content: left;
+  
+}
+
+.nav-active a{
+  
+  color: black;
+  font-weight: 500;
+  
+  text-decoration: none;
+}
+
+.nav-active a:hover{
+text-decoration: underline;
+}
+
+</style>
+
+<script>
+
+const btn = document.querySelector(".btn");
+const nav = document.querySelector(".nav");
+
+
+btn?.addEventListener("click", () => {
+  console.log(nav?.textContent);
+  nav?.classList.toggle("nav-active");
+
+})
+
+</script>

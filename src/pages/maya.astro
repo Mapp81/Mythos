@@ -1,0 +1,17 @@
+---
+import Base from "../layouts/base.astro";
+import DiosCard from "../components/CardDios.astro";
+import dioses from "../data/dioses.json";
+---
+
+<Base>
+  <section class="text-center mt-10">
+    <h1 class="text-4xl font-bold text-black mb-8">🌩️ Dioses Mayas</h1>
+
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 p-4">
+      {dioses.map((dios) => (
+        <DiosCard dios={dios} />
+      ))}
+    </div>
+  </section>
+</Base>

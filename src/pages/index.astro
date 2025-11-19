@@ -1,0 +1,223 @@
+---
+
+import Base from "../layouts/base.astro";
+import CardDios from "../components/CardDios.astro";
+import dioses from "../data/dioses.json";
+import Grecia from "../../public/Images/Grecia.jpg";
+import Roma from "../../public/Images/Roma.jpg";
+import Stonehenge from "../../public/Images/Stonehenge.jpg";
+import Egipto from "../../public/Images/Egipto.jpg";
+
+
+const diosesdata = dioses;
+---
+
+<Base>
+  
+<div class="flex lg:h-screen min-h-screen w-full flex-col  bg-[#111318]">
+      <div class="flex h-full flex-col">
+        
+        <div class="flex justify-center py-5">
+          <div class="flex flex-col">
+            <h1 class="text-[#ffffff] tracking-light text-[32px] font-bold leading-tight px-4 text-center pb-3 pt-6">Explora las Mitologías del Mundo</h1>
+            <p class="text-white text-base font-normal leading-normal pb-3 pt-1 px-4 text-center">Descubre las historias y leyendas de diversas culturas a través del tiempo.</p>
+
+            <div class="flex h-10 w-full gap-2 mb-12 justify-center">
+            
+              <div class="flex lg:w-1/2 rounded-lg h-full">
+                <div
+                  class="text-[#252525] flex border-none bg-[#e4e0e0] items-center justify-center pl-4 rounded-l-lg border-r-0"
+                  data-icon="MagnifyingGlass"
+                  data-size="24px"
+                  data-weight="regular">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                    <path
+                      d="M229.66,218.34l-50.07-50.06a88.11,88.11,0,1,0-11.31,11.31l50.06,50.07a8,8,0,0,0,11.32-11.32ZM40,112a72,72,0,1,1,72,72A72.08,72.08,0,0,1,40,112Z"
+                    ></path>
+                  </svg>
+                </div>
+                <input
+                  id="input"
+                  placeholder="Search"
+                  class="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-lg text-white focus:outline-0 focus:ring-0 border-none bg-[#e4e0e0] focus:border-none h-full placeholder:text-[#252525] px-4 rounded-l-none border-l-0 pl-2 text-base font-normal leading-normal"
+                  
+                />
+              </div>
+              <button class="button cursor-pointer px-4 py-2 rounded-lg bg-blue-600 text-white font-medium hover:bg-blue-700 transition">Ir</button>
+            
+            </div >
+
+             <!-- 🧠 Lista de dioses -->
+              <div class="w-full">
+                  <div id="lista-dioses" class="hidden text-center mt-10 ">
+                {dioses.map((dios) => (
+                  <CardDios dios={dios} />
+                    ))}
+               </div>
+              </div>
+
+            <div class="grid grid-cols-1 lg:grid-cols-3 xl:grid-cols-4 gap-3 p-4 lg:gap-4 lg:p-6 xl:gap-6 xl:p-8 ">
+
+
+              <a href="/griega">
+              <div class="flex flex-col gap-3 pb-3">
+                <div
+                  class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-lg">
+                  <picture>
+                    <img src={Grecia.src} alt="Grecia" class="w-full h-auto lg:w-[300px] lg:h-[400px] rounded-xl transition-transform duration-300 ease-out hover:scale-105" />
+                </picture>
+                </div>
+                <div class="text-center lg:w-[300px] lg:h-[400px]">
+                  <p class="text-[#ffffff] text-base font-medium leading-normal hover:underline">Grecia</p>
+                  <p class="text-[#757575] text-sm font-normal leading-normal">Donde nacen los dioses y comienzan las leyendas</p>
+                </div>
+              </div>
+              </a>
+
+              <a href="/romana">
+              <div class="flex flex-col gap-3 pb-3">
+                <div
+                  class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-lg">
+                  <picture>
+                    <img src={Roma.src} alt="Roma" class="w-full h-auto lg:w-[300px] lg:h-[400px] rounded-xl transition-transform duration-300 ease-out hover:scale-105" />
+                </picture>
+                </div>
+                <div class="text-center lg:w-[300px] lg:h-[400px]">
+                  <p class="text-[#ffffff] text-base font-medium leading-normal hover:underline">Roma</p>
+                  <p class="text-[#757575] text-sm font-normal leading-normal">Héroes, imperios y mitos que forjaron Occidente</p>
+                </div>
+              </div>
+              </a>
+
+
+              <a href="/nordica">
+              <div class="flex flex-col gap-3 pb-3">
+                <div
+                  class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-lg">
+                  <picture>
+                    <img src={Stonehenge.src} alt="Stonehenge" class="w-full h-auto lg:w-[300px] lg:h-[400px] rounded-xl transition-transform duration-300 ease-out hover:scale-105" />
+                  </picture>
+                </div>
+                <div class="text-center lg:w-[300px] lg:h-[400px]">
+                  <p class="text-[#ffffff] text-base font-medium leading-normal hover:underline">Pueblos Nórdicos</p>
+                  <p class="text-[#757575] text-sm font-normal leading-normal">Saga de dioses, gigantes y mundos unidos por el destino</p>
+                </div>
+              </div>
+              </a>
+
+
+              <a href="/egipcia">
+              <div class="flex flex-col gap-3 pb-3">
+                <div
+                  class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-lg">
+                  <picture>
+                    <img src={Egipto.src} alt="Egipto" class="w-full h-auto lg:w-[300px] lg:h-[400px] rounded-xl transition-transform duration-300 ease-out hover:scale-105" />
+                </picture>
+              </div>
+                <div class="text-center lg:w-[300px] lg:h-[400px]">
+                  <p class="text-[#ffffff] text-base font-medium leading-normal hover:underline">Egipto</p>
+                  <p class="text-[#757575] text-sm font-normal leading-normal">Misterios sagrados entre faraones, templos y eternidad</p>
+                </div>
+              </div>
+              </a>
+
+              <!-- 
+              <a href="/azteca">
+              <div class="flex flex-col gap-3 pb-3">
+                <div
+                  class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-lg"
+                  style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCcEej7--KmVBxpoI75-kLxZ50XIZP2_FLsN1OHQrJNDDPeftylC3hjKZUveDwVAJd0HtGiYVOjWkX3Z7AHtqvFWk_75vnRYMt1h-YZ49T4bnAHx4Yff6dou8Ioo6Rvo_OfU-KpWBvOjIbCC6XZz62lJ4UYvzHPGVPkIS5s7RfG8Y7VnBFvkYsjGjy8j6kWsIyfYq2C2IDc2Nr4zb5OZt6iGXhNXGwfCq1GFckLTLzR11_DZ4lgmk7zHDQIfScBWsg3AvyNRnS-cMY");'
+                ></div>
+                <div>
+                  <p class="text-[#252525] text-base font-medium leading-normal">Pueblo Azteca</p>
+                  <p class="text-[#757575] text-sm font-normal leading-normal">Espíritus y kami de la tradición.</p>
+                </div>
+              </div>
+              </a>
+
+              <a href="/maya">
+              <div class="flex flex-col gap-3 pb-3">
+                <div
+                  class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-lg"
+                  style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuC6JMcqulMu5y9Hg6WT6cLXBTXnHJD8x-xoAwmaum-lWOXW5GLySG__g4-7jzxleQj3gFDK3DlT4XKTIrgyWpvo_8qApCNJioaq_MKVYMT0lAshDZY6ggrb5F-uj5n6O-Kcj6pqAQCd1IA5DAQLpE3z8yQWbJZU9CpK-Ui-bmEgHoM9rw3JarOl7SJUM_xSRrRkpcBcCLK5C5geTxI85P6j9dNH5KXqxe6CYA3m_Jha0u4DrfejQm09joFHyY4i3aO2XzSrhioCwZc");'
+                ></div>
+                <div>
+                  <p class="text-[#252525] text-base font-medium leading-normal">Pueblo Maya</p>
+                  <p class="text-[#757575] text-sm font-normal leading-normal">Guerreros y dioses del imperio maya.</p>
+                </div>
+              </div>
+              </a>
+
+            </div>
+            -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+<style>
+
+
+.lista-active {
+  display: grid;
+  gap: 1.5rem;
+  align-items: center;
+  align-content: center;
+  grid-template-columns: repeat(1, 1fr);
+}
+
+@media (min-width: 1024px) { /* lg */
+  .lista-active {
+    grid-template-columns: repeat(4, 1fr);  
+  }
+}
+
+.lista-active:has(> :only-child) {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  grid-template-columns: 1fr;
+  width: 100%;
+  height: auto;
+}
+
+
+</style>
+
+<script define:vars={{ dioses }}>
+  const input = document.getElementById('input');
+  const lista = document.getElementById('lista-dioses');
+  const boton = document.querySelector('.button');
+
+
+  boton?.addEventListener('click', () => {
+    const filtro = input?.value.trim().toLowerCase();
+    
+    if (!filtro) return;
+
+    const filtrados = dioses.filter(d =>
+      d.slug.toLowerCase().includes(filtro)
+    );
+
+    // Muestra solo los filtrados
+    lista.innerHTML = filtrados.map(d =>
+      `
+      <a href="/dios/${d.mitologia}/${d.slug}"><div class="bg-[#111318] rounded-xl p-4 text-center">
+        <img src="${d.imagen}" alt="${d.slug}" class="rounded-lg w-full aspect-square object-cover mb-2">
+        <h3 class="text-lg font-bold text-white">${d.slug}</h3>
+       
+      </div>
+      </a>
+      `
+    ).join('');
+
+    // Mostrar lista si estaba oculta
+    lista.classList.remove('hidden');
+    lista.classList.add('lista-active');
+  });
+</script>
+
+  
+</Base>
+
