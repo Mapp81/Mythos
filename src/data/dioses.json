@@ -2053,7 +2053,7 @@
 },
 {
     "slug": "apedemak",
-    "mitologia": "Meroítica/Egipcia",
+    "mitologia": "Egipcia",
     "nombre": "APEREMAK/PIRMAKI/PAREMEKI/APEDEMAK",
     "imagen": "**León** u hombre con cabeza de león. Armado con arco y con peto protector. Puede ser una serpiente con cabeza de león y brazos humanos, o un león de tres cabezas y cuatro brazos.",
     "descripcion": "Dios **meroítico** de origen solar, **guerrero y protector** en las batallas. Posee un marcado carácter africano y agresivo. No está representado en santuarios puramente egipcios. Lleva el epíteto de Pa-Jere-Meki, '**El Cazador**'. Es posible que pueda ser comparado con el león egipcio Mahes, con el que comparte funciones. Junto a Sbiumeker, es león protector a la entrada de los templos meroíticos.",
@@ -2148,7 +2148,7 @@
 },
 {
     "slug": "arensnufis",
-    "mitologia": "Egipcia/Nubia",
+    "mitologia": "Egipcia",
     "nombre": "ARIHEMESNEFER/ARENSNUFIS",
     "imagen": "Dios antropomorfo con una **corona de plumas**. También león con corona atef. En Esna tiene cabeza de cocodrilo.",
     "descripcion": "Dios eminentemente **nubio**. Su nombre significa '**El Buen Compañero**'. Forma parte de la leyenda de la Diosa Lejana. Asimilado a Shu, con el título '**El que trajo a la Lejana de Punt**'. Es una forma local de Onuris. Se le denomina 'Gran Dios, Señor del Abatón'. Posiblemente asociado al dios meroítico Apedemak.",
@@ -2186,7 +2186,7 @@
 },
 {
     "slug": "astarte",
-    "mitologia": "Egipcia/Sirio-Palestina",
+    "mitologia": "Egipcia",
     "nombre": "ASTARTET/ASTARTÉ",
     "imagen": "Mujer o **amazona a caballo**. Sobre la cabeza lleva una corona blanca con dos plumas y, ocasionalmente, cuernos de toro. Puede aparecer fusionada a Sejmet, bajo forma de mujer con cabeza de leona y disco solar. Forma animal: león o esfinge.",
     "descripcion": "En origen, diosa del **amor y la fecundidad**, que más tarde se convirtió en una divinidad eminentemente **guerrera**. Es la protectora del rey en las batallas, los caballos y los carros de guerra, y se la conoce como '**Soberana de los Caballos y Carros**'. Asociada a **Seth** (diosa de la guerra) y a Ptah de Menfis (identificándose con Sejmet). Considerada una deidad unida a la **medicina** por su facultad de repeler enfermedades. Protectora del Gineceo (junto a Bes).",
@@ -2262,7 +2262,7 @@
 },
 {
     "slug": "ba",
-    "mitologia": "Concepto Egipcio",
+    "mitologia": "Egipcia",
     "nombre": "BA",
     "imagen": "Cigüeña jabiru; en el Reino Nuevo halcón con cabeza y brazos humanos (los del difunto). Carnero, grulla.",
     "descripcion": "Más que un dios, es una **fuerza anímica** que compone la parte espiritual del hombre. Tradicionalmente traducido de forma errónea como “alma”, es la **personalidad individualizada y espiritual** de cada ser. Se relaciona con el difunto y es el responsable de sus actos morales cuando residió entre los mortales. Representa el **movimiento** y era la facultad que tenía el difunto para desplazarse, para reunirse con su *ka*. El *ba* abandonaba el cuerpo inerte al morir y ascendía al cielo, pero cada noche debía volver a la tumba para reunirse con el cuerpo físico. Osiris era el *ba* del dios Ra. En Nubia, en época meroítica, adopta el aspecto antropomorfo, tocado con disco solar y alas largas.",
@@ -2281,7 +2281,7 @@
 },
 {
     "slug": "baal",
-    "mitologia": "Semítica/Egipcia",
+    "mitologia": "Egipcia",
     "nombre": "BAR (Egipcio) / BAAL (Semítico)",
     "imagen": "Hombre en pie con barba, vestido con una característica túnica siria. Lleva una tiara alta inspirada en la corona del Alto Egipto o esta misma corona, con un tallo de loto colgando del vértice superior. En su frente porta dos pequeños cuernos acompañados de un disco solar. Frecuentemente lleva una lanza o una maza en las manos.",
     "descripcion": "Dios **guerrero**. Identificado, en muchos aspectos, con el dios egipcio **Seth**. También se le considera un dios del cielo y de las tormentas. Su culto pudo introducirse en Egipto durante el Reino Medio y afianzarse con la invasión de los Hicsos. La mayor expansión de su fervor se produjo durante la Época Ramésida, momento en el que se asimiló a Seth (deidad de la monarquía). Puede aparecer asimilado al guerrero Montu. Posee una contrapartida femenina llamada Baalat.",
@@ -2300,7 +2300,7 @@
 },
 {
     "slug": "baalat",
-    "mitologia": "Semítica/Egipcia",
+    "mitologia": "Egipcia",
     "nombre": "BAARATI (Egipcio) / BAALAT (Semítico)",
     "imagen": "Mujer que posee, en muchas ocasiones, atributos de la diosa Hathor.",
     "descripcion": "Diosa que es una **creación egipcia y teológica posterior**, para dotar al dios Baal de un concepto femenino que le complemente (dualidad). Está presente en los *Textos de los Sarcófagos*, donde aparece como un **demonio hostil** al difunto. Comienza a venerarse a partir del Reino Nuevo. En el Valle del Nilo se identifica con **Hathor**, y su leyenda es paralela a la de Hathor de Dendera.",
@@ -2509,7 +2509,7 @@
 },
 {
     "slug": "cosmogonia",
-    "mitologia": "Concepto Egipcio",
+    "mitologia": "Egipcia",
     "nombre": "COSMOGONÍA",
     "imagen": "Variable.",
     "descripcion": "Término griego que define la parte de la mitología que narra el **origen del mundo y del cosmos**. Las diversas cosmogonías egipcias son **variables y contradictorias**, ya que dependían del área y del dios local al que se quería dar importancia. El concepto se basa en una detallada observación de la naturaleza, incluyendo elementos como las **aguas de Nun**, la **colina primigenia** y el **Sol** como creador. Las cosmogonías más importantes y con mayor influencia fueron la de Menfis (Ptah), Heliópolis (Ra), Hermópolis (Thot) y Tebas (Amón).",
@@ -2585,7 +2585,7 @@
 },
 {
     "slug": "eneada",
-    "mitologia": "Concepto Egipcio",
+    "mitologia": "Egipcia",
     "nombre": "PESDYET (Egipcio) / ENÉADA (Griego/Romano)",
     "imagen": "Variable.",
     "descripcion": "Término griego para designar aquellas agrupaciones divinas que constituyen una **familia** unida bajo un nexo creador. Aunque la palabra griega alude a nueve miembros, en la especulación teológica egipcia el número 9 simboliza la **infinitud: el todo**. En Egipto coexistieron varias enéadas, como la de Karnak (con 13, 17, 15 o 11 miembros) y la de Abidos (con siete divinidades). La **Enéada Heliopolitana** (la principal) estaba formada por: Atum, Shu, Tefnut, Gueb, Nut, Osiris, Isis, Seth y Neftis. Esta Enéada se dividía en un mito **cósmico** y un mito **monárquico**. El propósito de su existencia era dar vida a **Maat** (el orden cósmico).",
@@ -3488,7 +3488,7 @@
 },
 {
     "slug": "hurun",
-    "mitologia": "Cananea/Egipcia",
+    "mitologia": "Egipcia",
     "nombre": "HURUN/HAURUN",
     "imagen": "Halcón u hombre con cabeza de halcón.",
     "descripcion": "Dios **protector y poderoso, originario de Canaan**, que entró en Egipto durante el Reino Medio. Fue **paredro de Qadesh**. Se le identificó con la **esfinge de Guiza** y allí se erigió un santuario en su honor. Fue venerado por el pueblo semita, haciéndose **guardián de los artesanos extranjeros** y defensor ante los animales salvajes y los venenosos.",
@@ -3795,7 +3795,7 @@
 },
 {
     "slug": "ka",
-    "mitologia": "Concepto Egipcio",
+    "mitologia": "Egipcia",
     "nombre": "KA",
     "imagen": "Aspecto humano con dos brazos posados sobre la cabeza y levantados en ángulo recto, con las manos extendidas y las palmas hacia arriba, en acto de adoración. Puede aparecer el símbolo sin ninguna manifestación humana o animal bajo él. Figura humana modelada sobre un torno de alfarería.",
     "descripcion": "Presente en los textos desde el Reino Antiguo, el *ka* es un **concepto de difícil traducción**, uno de los elementos anímicos que formaban la parte espiritual del hombre, junto al *aj*, el *ba*, el nombre, la sombra y el cuerpo físico. Ha sido interpretado como la **fuerza vital** del individuo que se crea como su gemelo. El *ka* protege al hombre mientras vive y permanece como protector tras la muerte, siempre que se cumplan unos ritos específicos, ya que está **ligado a la alimentación**. El *ka* fue traducido por Gaston Maspero (1893) como “doble vital” o “gemelo”. En algunos contextos parece transmitir un sentido de **poder intelectual y espiritual**. Era modelado por Jnum en su torno de alfarero. Las *Hemsut* servían para afianzar este concepto como su contrapartida femenina. El *ka* del dios de los templos se fusionaba con el *ka* de Ra en la Capilla del Año Nuevo.",
@@ -4104,7 +4104,7 @@
 },
 {
     "slug": "maat",
-    "mitologia": "Concepto Egipcio / Diosa",
+    "mitologia": "Egipcia",
     "nombre": "MAAT",
     "imagen": "Mujer que porta sobre su cabeza una **pluma de avestruz**. Mujer **alada** a partir del reinado de Ajenatón.",
     "descripcion": "Maat, además de ser una diosa, es un **concepto abstracto (casi filosófico) y trascendental** en el antiguo Egipto, uno de los más importantes del pensamiento. Personifica el **orden cósmico, la justicia, la verdad y la estabilidad**. El soberano es el responsable directo de este orden en la tierra. Era la **ofrenda por excelencia**, aquella que debía presentarse a todos los dioses, ya que éstos **se alimentaban del Maat**. Es la '**Hija de Ra**' (sobre todo en el Reino Nuevo) y también se identifica con **Osiris**, al que se le denomina '**Señor de Maat**'. Juega un papel crucial como **contrapeso de la balanza** en la 'Sala de las Dos Verdades' (Psicostasia) donde se pesa el corazón del difunto. Fue **patrona de los jueces**, quienes llevaban su efigie colgada. En esta función estaba asistida por Thot. El dios Atón daba vida al Maat.",
@@ -4162,7 +4162,7 @@
 },
 {
     "slug": "mandulis",
-    "mitologia": "Egipcia/Nubia",
+    "mitologia": "Egipcia",
     "nombre": "MERUEL",
     "nombre_grecorromano": "MANDULIS/APOLO",
     "imagen": "Dios con forma de **varón adulto o niño**, tocado con una **corona** formada por cuernos retorcidos, altas plumas, disco solar y cobras. Usualmente, un **halcón con cabeza humana**, peinado nubio, corona de cuernos horizontales y dos altas plumas que flanquean tres motivos vegetales anudados.",
@@ -4858,7 +4858,7 @@
 },
 {
     "slug": "qadesh",
-    "mitologia": "Egipcia/Sirio-Palestina",
+    "mitologia": "Egipcia",
     "nombre": "QADESH",
     "imagen": "Mujer desnuda sobre un león (o caballo). Sobre su cabeza lleva un tocado formado por **cuernos liriformes y disco solar**.",
     "descripcion": "El término 'QADESH' se encuentra en el índice bajo la letra Q. No hay una sinopsis detallada para este nombre en las fuentes proporcionadas. No obstante, en la sinopsis de Hurun se menciona que fue **paredro de Hurun** (Hurun es un dios protector y poderoso, originario de Canaan).",
@@ -5034,7 +5034,7 @@
 },
 {
     "slug": "reshef",
-    "mitologia": "Egipcia/Cananea",
+    "mitologia": "Egipcia",
     "nombre": "RESHEF/RESHPU",
     "imagen": "Dios guerrero.",
     "descripcion": "El término 'RESHEF' se encuentra en el índice bajo la letra R. No hay una sinopsis detallada para este nombre en las fuentes proporcionadas.",
@@ -5170,7 +5170,7 @@
 },
 {
     "slug": "pursepmunis",
-    "mitologia": "Egipcia/Nubia",
+    "mitologia": "Egipcia",
     "nombre": "NOMBRE DEMÓTICO: PURŠEPMNE",
     "nombre_grecorromano": "PURSEPMUNIS/PURSEPMUNES/PERSEPMUMES",
     "imagen": "No especificado en las fuentes.",
@@ -5190,7 +5190,7 @@
 },
 {
     "slug": "ogdoada",
-    "mitologia": "Concepto Egipcio (Hermópolis)",
+    "mitologia": "Egipcia",
     "nombre": "JEMENU",
     "nombre_grecorromano": "OGDÓADA",
     "entidades": "Nun, Naunet, Heh, Hehet, Kek, Keket, Amón, Amonet (la última pareja es variable).",
@@ -5309,7 +5309,7 @@
 },
 {
     "slug": "sbiumeker",
-    "mitologia": "Meroítica/Egipcia",
+    "mitologia": "Egipcia",
     "nombre": "No se conoce el nombre egipcio.",
     "nombre_meroítico": "SBIUMEKER",
     "imagen": "Dios **antropomorfo** que lleva sobre la cabeza la **doble corona del Alto y del Bajo Egipto**. En las manos suele portar el **cetro *uas*** y otro cetro particular. En ocasiones puede adoptar iconografía **leontocéfala**.",
@@ -5329,7 +5329,7 @@
 },
 {
     "slug": "sed",
-    "mitologia": "Concepto/Fiesta Egipcia",
+    "mitologia": "Egipcia",
     "nombre": "SED",
     "imagen": "No especificado en las fuentes (el concepto es una fiesta).",
     "descripcion": "El término 'SED' se encuentra en el índice bajo la letra S. La información proporcionada lo refiere como **Festival de Jubileo real**. En esta ceremonia de regeneración, **Ha** e **Igai** ocupaban un lugar importante, situándose entre los dioses del Alto Egipto. La diosa **Meret** también participaba en el Festival Sed.",
@@ -5348,7 +5348,7 @@
 },
 {
     "slug": "sedyem",
-    "mitologia": "Concepto Egipcio",
+    "mitologia": "Egipcia",
     "nombre": "SEDYEM",
     "imagen": "No especificado en las fuentes.",
     "descripcion": "El término 'SEDYEM' se encuentra en el índice bajo la letra S. Es un **concepto** que personifica uno de los **cinco sentidos**. Específicamente, Sedyem encarna el **oído**. Se le cita junto a **Hu** (el gusto), **Sia** (el tacto) y **Maa** (la vista), siendo Hu una abstracción que encarna las órdenes que salen de la boca de Ra.",
@@ -5483,7 +5483,7 @@
 },
 {
     "slug": "serapis",
-    "mitologia": "Helenística/Egipcia",
+    "mitologia": "Egipcia",
     "nombre": "USIRHEP",
     "nombre_grecorromano": "SERAPIS/SARAPIS",
     "imagen": "Hombre **barbudo** con claras influencias helenísticas, en la representación del rostro, que porta sobre la cabeza una figura en forma de **cubo (modius)** a modo de tocado.",
@@ -5562,7 +5562,7 @@
 },
 {
     "slug": "shed",
-    "mitologia": "Egipcia/Asiática",
+    "mitologia": "Egipcia",
     "nombre": "SHED",
     "imagen": "Joven **desnudo** y ataviado a modo de los **príncipes del Reino Nuevo**, es decir, con una **coleta lateral**. Sobre la frente puede llevar una **cabeza de gacela**. En las manos sujeta un **arco y flechas**. Se le representa sobre un **carro tirado por grifos o por caballos**.",
     "descripcion": "Deidad típica de la dinastía XVIII, de **origen asiático**. Su epíteto significa '**Salvador**'. Se identificó y confundió con un **aspecto protector de Horus (Harpócrates)**, pudiendo ser un sobrenombre del dios halcón. Era el encargado, junto a otras divinidades, de **proteger** y dar caza a los animales peligrosos y venenosos. Personificaba la **capacidad protectora de los dioses**. En la Época Baja, su vinculación al joven Horus se hizo tan estrecha que aparece a menudo en las llamadas estelas de '**Horus sobre los Cocodrilos**'.",
@@ -5619,7 +5619,7 @@
 },
 {
     "slug": "shepses_et_nefert",
-    "mitologia": "Egipcia/Nubia",
+    "mitologia": "Egipcia",
     "nombre": "SHEPSES (ET) NEFERT",
     "imagen": "Mujer que lleva en sus manos el **cetro *uady* y el *anj***. Sobre la cabeza porta un tocado en forma de **buitre con alas desplegadas**. Su corona está formada por una base en la que aparecen **siete serpientes** vistas de frente y una de perfil; encima, **disco solar entre cuernos de vaca y dos altas plumas**.",
     "descripcion": "Terminará siendo un **epíteto de la diosa Isis**, pero en el siglo I a.C. aparece documentado como **deidad independiente**. Su nombre significa '**la Bella Distinguida**'. Las escasas referencias están relacionadas con el viaje de miembros de una familia sacerdotal de la Baja Nubia meroítica hasta **Filé**. En Filé, sobre los muros del templo de Isis, se escribieron breves himnos en su honor, y entre los epítetos de Isis se halla el de Shepsest Nefert. En Debod, esta divinidad figuraba como **diosa completamente independiente** (aunque en el séquito de Isis). Este proceso sugiere una **fagocitosis sagrada**: la diosa principal (Isis) sincretiza una diosa de menor rango.",
@@ -5716,7 +5716,7 @@
 },
 {
     "slug": "sia",
-    "mitologia": "Concepto Egipcio",
+    "mitologia": "Egipcia",
     "nombre": "SIA",
     "imagen": "Apariencia humana. Lleva sobre la cabeza una **pieza de tela**.",
     "descripcion": "Es un **aspecto de la deidad solar** que personifica en el acto de la creación la **percepción, la inteligencia y el entendimiento**. Es uno de los dioses asociados a los **14 *kas* del Sol**. En los *Textos de las Pirámides* se le sitúa a la **derecha de Ra**. Encarna uno de los **cinco sentidos, concretamente el tacto**. Se le cita junto a **Hu** (el gusto), **Maa** (la vista) y **Sedyem** (el oído). Como dios funerario, era la deidad de la **primera puerta del Mundo Subterráneo**. En este momento, Sia pasaba a situarse en la **proa del navío de Ra**. Puede considerarse el **heraldo del Sol**. Su nacimiento se produjo al derramarse una **gota de la sangre de Ra cuando fue circunciso**. Era el responsable de los **papiros con contenidos eruditos**. Personificaba la **intelectualidad** (encarna la lengua de Ptah). Residía en el **Ojo de Ra**.",
@@ -5852,7 +5852,7 @@
 },
 {
     "slug": "sruptichis",
-    "mitologia": "Egipcia/Nubia",
+    "mitologia": "Egipcia",
     "nombre": "No se conoce el nombre egipcio.",
     "nombre_grecorromano": "SRUPTICHIS",
     "imagen": "¿Antropomorfa? (mujer).",
