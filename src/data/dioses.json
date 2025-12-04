@@ -1053,25 +1053,7 @@
       "Padres": "Zeus y Themis."
     }
   },
-{
-    "slug": "jupiter",
-    "mitologia": "Romana",
-    "nombre": "Júpiter",
-    "imagen": "",
-    "descripcion": "El **Rey de los dioses**, siendo el más poderoso de entre todos en el panteón romano. Es el dios del cielo y del trueno, así como el administrador de justicia y la máxima autoridad entre las deidades. No temía a nadie ni a nada. También era protector del derecho y la verdad, y de la santidad de los juramentos. Su equivalente griego es Zeus.",
-    "atributos": {
-      "Símbolos": "El **Rayo** (equivalente al de Zeus, forjado por los Cíclopes) , el cetro y la victoria (asociada con su poder supremo) [7, 8].",
-      "Animales": "El **Águila** (asociado a Zeus, el dios del cielo).",
-      "Plantas": "El **Roble** (asociado a Zeus, dios de Dodona).",
-      "Acciones Míticas": "Fue adorado como *Jupiter Optimus Maximus* en la Colina Capitolina [4, 10]. Su función era dirigir el mundo según su voluntad."
-    },
-    "familia": {
-      "Padres": "Saturno.",
-      "Hermanos": "Neptuno, Plutón y Juno.",
-      "Consortes": "Juno (esposa y hermana) [4, 12].",
-      "Hijos": "Juno fue la madre de Juventas, Marte y Vulcano. Con Metis fue padre de Minerva. Es padre de muchos otros dioses y héroes."
-    }
-  },
+
   {
     "slug": "rea",
     "mitologia": "Griega",
@@ -1242,12 +1224,31 @@
       "Consortes": "No especifica.",
       "Hijos": "No especifica."
     }
+  },
+  {
+    "slug": "jupiter",
+    "mitologia": "Romana",
+    "nombre": "Júpiter",
+    "imagen": "/Images/Jupiter.png",
+    "descripcion": "El **Rey de los dioses**, siendo el más poderoso de entre todos en el panteón romano. Es el dios del cielo y del trueno, así como el administrador de justicia y la máxima autoridad entre las deidades. No temía a nadie ni a nada. También era protector del derecho y la verdad, y de la santidad de los juramentos. Su equivalente griego es Zeus.",
+    "atributos": {
+      "Símbolos": "El **Rayo** (equivalente al de Zeus, forjado por los Cíclopes) , el cetro y la victoria (asociada con su poder supremo) [7, 8].",
+      "Animales": "El **Águila** (asociado a Zeus, el dios del cielo).",
+      "Plantas": "El **Roble** (asociado a Zeus, dios de Dodona).",
+      "Acciones Míticas": "Fue adorado como *Jupiter Optimus Maximus* en la Colina Capitolina [4, 10]. Su función era dirigir el mundo según su voluntad."
+    },
+    "familia": {
+      "Padres": "Saturno.",
+      "Hermanos": "Neptuno, Plutón y Juno.",
+      "Consortes": "Juno (esposa y hermana) [4, 12].",
+      "Hijos": "Juno fue la madre de Juventas, Marte y Vulcano. Con Metis fue padre de Minerva. Es padre de muchos otros dioses y héroes."
+    }
   },  
   {
     "slug": "juno",
     "mitologia": "Romana",
     "nombre": "Juno",
-    "imagen": "",
+    "imagen": "/Images/Juno.png",
     "descripcion": "La **Reina de los dioses** y la protectora de las mujeres de Roma. Es la diosa del **matrimonio** y del parto, y representa la encarnación de la familia. Su equivalente griego es Hera.",
     "atributos": {
       "Símbolos": "El **Pavo Real**, que lleva los cien ojos de Argos [15, 16].",
@@ -1266,7 +1267,7 @@
     "slug": "neptuno",
     "mitologia": "Romana",
     "nombre": "Neptuno",
-    "imagen": "",
+    "imagen": "/Images/Neptuno.png",
     "descripcion": "El **señor del mar**, así como dios del agua dulce, terremotos, huracanes y caballos. Era un dios muy poderoso y con bastante mal humor. Los romanos le temían, especialmente aquellos que vivían cerca de la costa . Su equivalente griego es Poseidón .",
     "atributos": {
       "Símbolos": "El **Tridente**.",
@@ -1285,7 +1286,7 @@
     "slug": "minerva",
     "mitologia": "Romana",
     "nombre": "Minerva",
-    "imagen": "",
+    "imagen": "/Images/Minerva.png",
     "descripcion": "Diosa de la **sabiduría**, las artes, el comercio y la estrategia. Sus 'dominios' también incluían la medicina, la poesía y la artesanía. Era una antigua diosa etrusca que los romanos identificaron con la griega Atenea. El poeta Ovidio la llamaba la '**diosa de las mil obras**'.",
     "atributos": {
       "Símbolos": "Una **serpiente** a los pies, como símbolo del poder creativo de la sabiduría. También el **Égida** (coraza) y el casco (equivalentes griegos).",
@@ -1304,7 +1305,7 @@
     "slug": "marte",
     "mitologia": "Romana",
     "nombre": "Marte",
-    "imagen": "",
+    "imagen": "/Images/Marte.png",
     "descripcion": "Dios de la guerra, guardián de la agricultura, y encarnación de la **virilidad y la violencia**. Era descrito como **alto, guapo, cruel y vanidoso**. A diferencia de su homólogo griego Ares, Marte ocupaba un lugar más alto en el culto romano. Es el equivalente griego de Ares.",
     "atributos": {
       "Símbolos": "El casco, la lanza y la música marcial (de su nombre deriva 'martial').",
@@ -1323,7 +1324,7 @@
     "slug": "venus",
     "mitologia": "Romana",
     "nombre": "Venus",
-    "imagen": "",
+    "imagen": "/Images/Venus.png",
     "descripcion": "La **Madre del pueblo romano** y la diosa del **amor**, la **belleza**, la fertilidad, el sexo, el deseo y la prosperidad. Hombres y mujeres la invocaban para que les ayudase en asuntos del corazón, sexo, compromiso y matrimonio. Su equivalente griego es Afrodita.",
     "atributos": {
       "Símbolos": "La manzana, el mirto y la rosa (equivalentes griegos).",
@@ -1341,8 +1342,8 @@
   {
     "slug": "apolo",
     "mitologia": "Romana",
-    "nombre": "Febo / Apolo",
-    "imagen": "",
+    "nombre": "Apolo",
+    "imagen": "/Images/Apolo.png",
     "descripcion": "Dios del **sol**, la **música**, la curación, la poesía, el tiro con arco y la **profecía**. Es uno de los pocos dioses cuyo nombre se mantuvo intacto respecto a su homólogo griego. Como Febo (el brillante), era el dios del sol [41, 42]. Era patrón del Oráculo de Delfos.",
     "atributos": {
       "Símbolos": "El **Arco y la flecha**, y el laurel (como recompensa del poeta).",
@@ -1450,6 +1451,235 @@
       "Hermanos": "Júpiter, Vesta, Neptuno y Ceres.",
       "Consortes": "**Proserpina** (hija de Ceres).",
       "Hijos": "No especificado en las fuentes."
+    }
+  },
+  {
+    "slug": "vesta",
+    "mitologia": "Romana",
+    "nombre": "Vesta",
+    "imagen": "",
+    "descripcion": "Diosa que representa el **fuego en el hogar**, considerado el altar natural y el centro espiritual de la vida familiar [1]. Es una de las deidades protectoras de todo el imperio, y el destino y la seguridad de Roma dependían de la preservación de su **fuego sagrado** [2]. Vesta es idéntica a la Hestia griega [3].",
+    "atributos": {
+      "Símbolos": "El fuego del hogar [1].",
+      "Animales": "",
+      "Plantas": "",
+      "Acciones Míticas": "En su templo en Roma no se necesitaba una imagen de la diosa [1, 3]. Su fuego se encendía anualmente el 15 de junio con los rayos del sol [3]. Ella fue honrada por Júpiter con un premio en lugar de matrimonio, y es honrada en todos los templos [4]."
+    },
+    "familia": {
+      "Padres": "Cronus [4].",
+      "Hermanos": "Júpiter (Zeus), Neptuno, Plutón y Ceres (Deméter, Hestia, Poseidón, Hades) [5, 6].",
+      "Consortes": "Ninguno, ya que juró a Zeus ser doncella para siempre, aunque Poseidón y Apolo la pretendieron [4].",
+      "Hijos": "Ninguno."
+    }
+  },
+  {
+    "slug": "ceres",
+    "mitologia": "Romana",
+    "nombre": "Ceres",
+    "imagen": "",
+    "descripcion": "Antigua diosa latina que fue identificada con la diosa griega **Deméter** [7, 8]. Es la diosa del grano, descrita de aspecto generoso y amable [9]. Fue la protectora especial de los plebeyos [7].",
+    "atributos": {
+      "Símbolos": "Antorcha, espigas de trigo y amapolas [9].",
+      "Animales": "",
+      "Plantas": "Trigo y amapolas [9].",
+      "Acciones Míticas": "Su culto se introdujo en Roma en obediencia a un mandato de los libros sibilinos tras un fracaso de las cosechas [7]. Su duelo por su hija Proserpina explica las estaciones [10]."
+    },
+    "familia": {
+      "Padres": "",
+      "Hermanos": "Júpiter, Vesta, Neptuno y Plutón [5, 9].",
+      "Consortes": "",
+      "Hijos": "Proserpina [5]."
+    }
+  },
+  {
+    "slug": "proserpina",
+    "mitologia": "Romana",
+    "nombre": "Proserpina",
+    "imagen": "",
+    "descripcion": "Hija de Ceres y esposa de Plutón [5]. Su equivalente griego es Perséfone [7]. El mito de su secuestro y posterior regreso explica los **cambios de estación** [10, 11].",
+    "atributos": {
+      "Símbolos": "",
+      "Animales": "",
+      "Plantas": "",
+      "Acciones Míticas": "Fue llevada al inframundo por Plutón para ser su esposa [5]. Permanece en el inframundo seis meses al año (invierno) y regresa con su madre el resto del tiempo (verano) [10]."
+    },
+    "familia": {
+      "Padres": "Ceres (Deméter) [5] y Zeus (Júpiter) [9].",
+      "Hermanos": "",
+      "Consortes": "Plutón [5].",
+      "Hijos": "Ninguno mencionado."
+    }
+  },
+  {
+    "slug": "cupido",
+    "mitologia": "Romana",
+    "nombre": "Cupido",
+    "imagen": "",
+    "descripcion": "Dios del **amor**, la belleza y el deseo [12]. Es el hijo de Venus [12]. Originalmente concebido como un joven, la idea posterior fue la de un niño alado [13]. Su equivalente griego es Eros [13].",
+    "atributos": {
+      "Símbolos": "Flechas (que inspiran la pasión del amor) [13].",
+      "Animales": "",
+      "Plantas": "",
+      "Acciones Míticas": "Se hirió a sí mismo con sus propias flechas y se enamoró de Psique [13]. Fue enviado por Venus para castigar la belleza de Psique, pero se convirtió en su amante [14, 15]."
+    },
+    "familia": {
+      "Padres": "Venus (Afrodita) [12, 13], y algunos dicen que Ares es su padre [13].",
+      "Hermanos": "",
+      "Consortes": "Psique (después de ser elevada a la orden de los dioses) [16].",
+      "Hijos": "Ninguno mencionado."
+    }
+  },
+  {
+    "slug": "saturno",
+    "mitologia": "Romana",
+    "nombre": "Saturno",
+    "imagen": "",
+    "descripcion": "Identificado con el dios griego **Cronos** [17]. Es el padre de Júpiter [18]. Su reinado se asocia con la **Edad de Oro**, un tiempo en que los hombres vivían como dioses, sin pena ni trabajo [17].",
+    "atributos": {
+      "Símbolos": "La hoz (utilizada para castrar a su padre Urano) [6].",
+      "Animales": "",
+      "Plantas": "",
+      "Acciones Míticas": "Derrocó a su padre, Urano [6]. Fue derrocado por su hijo Júpiter (Zeus) [19]. Se tragó a sus hijos al nacer [6]."
+    },
+    "familia": {
+      "Padres": "Urano (Cielo) y Gea (Tierra) [6].",
+      "Hermanos": "Rea (esposa y hermana) [6].",
+      "Consortes": "Rea [6].",
+      "Hijos": "Júpiter [18], Neptuno, Plutón, Juno, Vesta y Ceres [6]."
+    }
+  },
+  {
+    "slug": "juventas",
+    "mitologia": "Romana",
+    "nombre": "Juventas",
+    "imagen": "",
+    "descripcion": "Diosa que personifica la **juventud** [20]. Su equivalente griego es Hebe [21].",
+    "atributos": {
+      "Símbolos": "",
+      "Animales": "",
+      "Plantas": "",
+      "Acciones Míticas": "Originalmente fue la copera (cup-bearer) de los dioses, hasta que fue reemplazada por Ganímedes [21].",
+      "Otros": "Es hija de Juno [20, 21]."
+    },
+    "familia": {
+      "Padres": "Júpiter y Juno [20].",
+      "Hermanos": "Marte y Vulcano [20].",
+      "Consortes": "Ninguno mencionado.",
+      "Hijos": "Ninguno mencionado."
+    }
+  },
+  {
+    "slug": "faunus",
+    "mitologia": "Romana",
+    "nombre": "Faunus",
+    "imagen": "",
+    "descripcion": "Antiguo dios romano de los **rebaños y manadas** [22]. Por su carácter profético y pastoral se identificó con el dios griego Pan [22].",
+    "atributos": {
+      "Símbolos": "",
+      "Animales": "Asociado con los animales de los rebaños [22].",
+      "Plantas": "",
+      "Acciones Míticas": "A menudo se le confunde con los Sátiros [23]. Adquirió el don de la profecía a través de su asociación con Pan [22]."
+    },
+    "familia": {
+      "Padres": "Ninguno mencionado.",
+      "Hermanos": "Ninguno mencionado.",
+      "Consortes": "Ninguno mencionado.",
+      "Hijos": "Muchos Faunos fueron concebidos, a menudo confundidos con los Sátiros [23]."
+    }
+  },
+  {
+    "slug": "janus",
+    "mitologia": "Romana",
+    "nombre": "Janus",
+    "imagen": "",
+    "descripcion": "Dios romano de los **comienzos** [24].",
+    "atributos": {
+      "Símbolos": "",
+      "Animales": "",
+      "Plantas": "",
+      "Acciones Míticas": "Las puertas de su templo se abrían en tiempos de guerra y se cerraban en tiempos de paz [24]."
+    },
+    "familia": {
+      "Padres": "Ninguno mencionado.",
+      "Hermanos": "Ninguno mencionado.",
+      "Consortes": "Ninguno mencionado.",
+      "Hijos": "Ninguno mencionado."
+    }
+  },
+  {
+    "slug": "bellona",
+    "mitologia": "Romana",
+    "nombre": "Bellona",
+    "imagen": "",
+    "descripcion": "Diosa que **personifica la guerra** [25].",
+    "atributos": {
+      "Símbolos": "",
+      "Animales": "",
+      "Plantas": "",
+      "Acciones Míticas": "Estaba asociada con Marte [25]."
+    },
+    "familia": {
+      "Padres": "Ninguno mencionado.",
+      "Hermanos": "Ninguno mencionado.",
+      "Consortes": "Asociada con Marte [25].",
+      "Hijos": "Ninguno mencionado."
+    }
+  },
+  {
+    "slug": "quirinus",
+    "mitologia": "Romana",
+    "nombre": "Quirinus",
+    "imagen": "",
+    "descripcion": "Nombre bajo el cual era adorado el deificado **Rómulo** [26].",
+    "atributos": {
+      "Símbolos": "",
+      "Animales": "",
+      "Plantas": "",
+      "Acciones Míticas": "Rómulo fue llevado al cielo por Marte, y a partir de entonces su pueblo lo adoró bajo este nombre [26]."
+    },
+    "familia": {
+      "Padres": "Marte [26].",
+      "Hermanos": "Remus [27].",
+      "Consortes": "Ninguno mencionado.",
+      "Hijos": "Ninguno mencionado."
+    }
+  },
+  {
+    "slug": "lares",
+    "mitologia": "Romana",
+    "nombre": "Lares",
+    "imagen": "",
+    "descripcion": "Dioses del **hogar** [28]. Su culto estaba asociado al de Vesta en el hogar familiar [28].",
+    "atributos": {
+      "Símbolos": "Imágenes que debían ser custodiadas celosamente por el dueño de la casa [28].",
+      "Animales": "",
+      "Plantas": "",
+      "Acciones Míticas": "Ninguna mencionada explícitamente, más allá de la protección del hogar [28]."
+    },
+    "familia": {
+      "Padres": "Ninguno mencionado.",
+      "Hermanos": "Asociados con los Penates [28].",
+      "Consortes": "Ninguno mencionado.",
+      "Hijos": "Ninguno mencionado."
+    }
+  },
+  {
+    "slug": "penates",
+    "mitologia": "Romana",
+    "nombre": "Penates",
+    "imagen": "",
+    "descripcion": "Dioses del **almacén doméstico** [28]. Su culto estaba asociado al de Vesta en el hogar familiar [28].",
+    "atributos": {
+      "Símbolos": "Imágenes que debían ser custodiadas por el dueño de la casa y llevadas consigo si cambiaba de casa [28, 29].",
+      "Animales": "",
+      "Plantas": "",
+      "Acciones Míticas": "Eneas, al huir de Troya, llevó consigo las imágenes de los Penates [29, 30]."
+    },
+    "familia": {
+      "Padres": "Ninguno mencionado.",
+      "Hermanos": "Asociados con los Lares [28].",
+      "Consortes": "Ninguno mencionado.",
+      "Hijos": "Ninguno mencionado."
     }
   },
   {
